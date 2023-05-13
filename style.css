@@ -1,0 +1,104 @@
+*{
+    font:  sans-serif;
+}
+.menu{
+    background-color: #202055;
+    min-height: 100%;
+ /*    display: flex;
+    justify-content:space-between;
+    text-align: left; */
+    display: flex;
+    justify-content: space-between;
+  
+}
+.menu nav{
+    display: flex;
+    margin-top: 20px;
+}
+.menu nav a{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 60px;
+    color: white;
+    text-decoration: none;
+}
+.menu nav a:hover{
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+}
+.segundo{
+    background-color: gray;
+    display: grid;
+    justify-content: center;
+}
+.segundo h1{
+    font-size: 50px;
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+}
+.segundo nav{
+    display: flex;
+    justify-content: space-around;
+}
+.segundo nav a{
+    margin-top: 30px;
+    height: 20px;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.saiba{
+    color: white;
+}
+.contato{
+    background-color: white;
+    color: gray;
+}
+body{
+    background-color: gray;
+}
+/* Style dos elementos de contato */
+form{
+    margin-left: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid white;
+}
+form input{
+    width: 20rem;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+form label input{
+    display: flex;
+}
+form h1{
+    color: white;
+    font-size: 50px;
+}
+.btn{
+    color: black;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+}
